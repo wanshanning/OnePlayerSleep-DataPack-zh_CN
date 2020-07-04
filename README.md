@@ -3,13 +3,13 @@
 这个单人睡眠数据包允许玩家跳过多人服务器上的夜晚
 
 它有这些特性:
-  - 可热更新。将其放入您存档文件的datapacks文件夹中，如果你已经开启作弊，请键入/reload以加载数据包。若无法开启作弊，你可以使用F3+T加载数据包
-  - Weather Control. A common problem in multiplayer servers is that the weather goes crazy after skipping the night too many times, this Data Pack solves it.
-  - Waking up system. Any player can wake up sleeping players to stop them from skiping the night, just click on the sleeping announcement.
+  - 可热更新：        将其放入您存档文件的datapacks文件夹中，如果你已经开启作弊，请键入/reload以加载数据包。若无法开启作弊，你可以使用F3+T加载数据包
+  - 天气控制（修复）： 多人服务器中的一个常见问题是，跳过夜晚太多次后天气会变得奇怪，这个数据包解决了这个问题。
+  - 唤醒系统：        任何玩家都可以叫醒正在睡觉的玩家，只需点击休眠公告就可以阻止他们夜间跳跃。
 
-Version 2.2 Features:
-  - Random sleeping announcements. A series of messages displayed at random when someone sleeps.
-  - Random wake up messages. A series of messages when a player is woken up by somebody.
+2.2版本新增:
+  - 随机上床公告 一系列的公告会在某个玩家睡觉的时候显示
+  - 随机叫醒公告. 一系列的公告会在某个玩家被叫醒的时候显示
 
 Version 2.3 Features:
   - Weather changes to cycle the weather often.
