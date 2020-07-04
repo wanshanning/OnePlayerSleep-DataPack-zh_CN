@@ -11,8 +11,8 @@
 
 execute if score #query_time ops.sleep matches 23500..23999 run scoreboard players set #sleep_message ops.sleep 0
 execute if score #query_time ops.sleep matches 0..12500 run scoreboard players set #sleep_message ops.sleep 0
-execute if score #sleep_message ops.sleep matches 0 run tellraw @a ["",{"selector":"@s"},{"text":" blew the rain away","color":"aqua"}]
-execute if score #sleep_message ops.sleep matches 0 run weather thunder 1
+execute if score #sleep_message ops.sleep matches 0 run tellraw @a ["",{"selector":"@s"},{"text":" 变成落汤鸡了","color":"aqua"}]
+execute if score #sleep_message ops.sleep matches 0 run weather clear 1
 execute if score #sleep_message ops.sleep matches 1 run tellraw @a ["",{"selector":"@s"},{"text":" 上班时睡着了","color":"blue","clickEvent":{"action":"run_command","value":"/trigger ops.kickBed"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Wake up!","color":"aqua"}]}}}]
 execute if score #sleep_message ops.sleep matches 2 run tellraw @a ["",{"selector":"@s"},{"text":" 松懈了","color":"blue","clickEvent":{"action":"run_command","value":"/trigger ops.kickBed"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Wake up!","color":"aqua"}]}}}]
 execute if score #sleep_message ops.sleep matches 3 run tellraw @a ["",{"selector":"@s"},{"text":" 在方向盘上睡着了","color":"blue","clickEvent":{"action":"run_command","value":"/trigger ops.kickBed"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Wake up!","color":"aqua"}]}}}]
