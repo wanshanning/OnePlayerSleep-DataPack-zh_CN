@@ -1,9 +1,9 @@
-# Minecraft 1.13 / 1.14 / 1.15 / 1.16 的单玩家睡觉数据包汉化(进行中)
-
+# Minecraft 1.13 / 1.14 / 1.15 / 1.16 的单玩家睡觉数据包汉化&优化
+## 汉化进行中；为节约缩减数据包大小删除了原作者创建的release文件夹([历次版本][history])
 原作者     MadCatHoG
 翻译&汉化  Wansn
 
-这个单人睡眠数据包允许玩家跳过多人服务器上的夜晚
+这个单人睡眠数据包允许玩家跳过多人服务器上的夜晚。旨在解决多人服务器不能达到人人同时睡觉的问题
 
 它有这些特性:
   - 可热更新：        将其放入您存档文件的datapacks文件夹中，如果你已经开启作弊，请键入/reload以加载数据包。若无法开启作弊，你可以使用F3+T加载数据包
@@ -61,4 +61,5 @@ Videos from newer to older:
    [yt2.4]: <https://youtu.be/dg8eUG3aYoo>
    [yt2.2]: <https://youtu.be/CbQggVOskSs>
    [yt2.1]: <https://youtu.be/b_RaFutGFMI>
+   [history]: <https://github.com/MadCatHoG/OnePlayerSleepV3-Data-Pack/tree/master/releases>
 
