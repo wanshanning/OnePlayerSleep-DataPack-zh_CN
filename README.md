@@ -1,9 +1,9 @@
-# One Player Sleep Data Pack for Minecraft 1.13 / 1.14 / 1.15 / 1.16
+# Minecraft 1.13 / 1.14 / 1.15 / 1.16 的单玩家睡觉数据包
 
-This One Player Sleep Data Pack allows a player to skip the night on a Multiplayer Server.
+这个单人睡眠数据包允许玩家跳过多人服务器上的夜晚
 
-Some of the features include:
-  - Plug and Play. Drop the zip file in the datapacks folder and the functions will install automatically
+它有这些特性:
+  - 可热更新。将其放入您存档文件的datapacks文件夹中，如果你已经开启作弊，请键入/reload以加载数据包。若无法开启作弊，你可以使用F3+T加载数据包
   - Weather Control. A common problem in multiplayer servers is that the weather goes crazy after skipping the night too many times, this Data Pack solves it.
   - Waking up system. Any player can wake up sleeping players to stop them from skiping the night, just click on the sleeping announcement.
 
