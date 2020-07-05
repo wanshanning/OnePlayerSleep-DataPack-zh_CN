@@ -17,7 +17,7 @@ execute as @a[scores={ops.sleep=1}] run scoreboard players enable @a ops.kickBed
 execute as @a[scores={ops.sleep=1}] run function ops:message
 
 # Change the line below to pass the night faster by adding more time after "add"
-execute as @a[scores={ops.sleep=100}] run time add 40
+execute as @a[scores={ops.sleep=100}] run time add 200
 
 execute if entity @a[scores={ops.sleep=1..},limit=1] if score #wc_status ops.sleep matches 1 if score #query_time ops.sleep matches 23500..23999 run weather thunder 1
 execute as @a[scores={ops.kickBed=1}] at @s run function ops:kicked
