@@ -1,5 +1,5 @@
 # Minecraft 1.13 / 1.14 / 1.15 / 1.16 的单玩家睡觉数据包汉化&优化
-## 汉化进行中；为节约缩减数据包大小删除了原作者创建的release文件夹([历次版本][history])
+## 汉化进行中；为节约缩减数据包大小删除了原作者创建的[releases][releases]文件夹
 原作者     MadCatHoG
 翻译&汉化  Wansn
 
@@ -14,19 +14,19 @@
   - 随机上床公告:  一系列的公告会在某个玩家睡觉的时候显示
   - 随机叫醒公告:  一系列的公告会在某个玩家被叫醒的时候显示
 
-Version 2.3 Features:
+2.3版本新增:
   - 改变天气来使天气不再疯狂
 
-Version 2.4 Features:
-  - Better weather control.
-  - Players now can stop storms if they go to sleep when is daytime.
-  - Fix: Time would advance for a long time if it was storming in the morning and players were sleeping.
-  Now storms end when the sun comes up and the player will naturally get woken up.
-  - The weather will only be affected in case of thunderstorm during the day (and players taking action). This data pack does not change the weather with regular sleeping at night.
+2.4版本新增:
+  - 更好的控制天气
+  - 如果玩家在白天睡觉就可以阻止暴风雨
+  - 修改：若暴风雨时玩家正在睡觉，睡觉时间将会延长很久
+    现在暴风雨将会在太阳升起时结束，玩家被自然唤醒
+  - 天气只有在白天并且有雷雨及玩家采取行动的情况下，才会受到影响。这个数据包不会改变天气，和晚上有的规律睡眠。
 
-Version 2.5 Features:
-  - Support for Minecraft 1.14 snapshots. Mojang removed the "Sleeping" NBT from their data model.
-  - Added compatibility! Data pack will work in Minecraft 1.13 and 1.14
+2.5版本新增
+  - 支持MC1.14快照版——在这个版本中Mojang移除了Sleeping的标签
+  - 添加 compatibility! Data pack will work in Minecraft 1.13 and 1.14
   - Fixed some messages to be gender neutral.
   - Commented gamerule sendCommandFeedback, this made some people crazy thinking I broke their Minecraft server.
   - Tested in Snapshot 19w09a and Minecraft 1.14 Pre-releases.
@@ -61,5 +61,5 @@ Videos from newer to older:
    [yt2.4]: <https://youtu.be/dg8eUG3aYoo>
    [yt2.2]: <https://youtu.be/CbQggVOskSs>
    [yt2.1]: <https://youtu.be/b_RaFutGFMI>
-   [history]: <https://github.com/MadCatHoG/OnePlayerSleepV3-Data-Pack/tree/master/releases>
+   [releases]: <https://github.com/MadCatHoG/OnePlayerSleepV3-Data-Pack/tree/master/releases>
 
